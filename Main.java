@@ -10,6 +10,7 @@ public class Main {
         
         BoxOfCandy b = new BoxOfCandy(box);
         System.out.println(b);
+        System.out.println(b.moveCandyToFirstRow(2));
 
         box = new Candy[3][5];
         box [0][0] = new Candy("lime");
